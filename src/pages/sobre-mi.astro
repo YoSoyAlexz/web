@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Sobre mí | Alexz">
+	<main class="about">
+		<h1>¡Hola! Soy Alexander <span>(alexzdev)</span></h1>
+		<p class="role">Desarrollador de Software</p>
+		<section class="content">
+			<h2>Sobre mí</h2>
+			<hr />
+			<p>Especializado en sistemas escalables. Experto en <strong>Java</strong> y <strong>Kotlin</strong> para Minecraft.</p>
+			<p>Manejo bases de datos como MySQL, MongoDB y sincronización con <strong>Redis</strong>.</p>
+			<p>También desarrollo en React, NextJS y estoy explorando <strong>GoLang</strong>.</p>
+			<a href="/" class="back">← Volver al inicio</a>
+		</section>
+	</main>
+</Layout>
+
+<style>
+	.about { max-width: 800px; margin: 0 auto; padding: 80px 24px; }
+	h1 { font-size: 3rem; text-align: center; }
+	h1 span { color: #6e6e73; font-weight: 400; }
+	.role { color: #0071e3; text-align: center; font-size: 1.5rem; margin-bottom: 60px; }
+	hr { border: 0; border-top: 1px solid #d2d2d7; margin: 20px 0; }
+	p { font-size: 1.15rem; margin-bottom: 20px; color: #424245; }
+	.back { color: #0071e3; text-decoration: none; display: block; text-align: center; margin-top: 40px; }
+</style>
+
