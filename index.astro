@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Alexander | Software Developer">
+	<main class="hero">
+		<h1>Hola, soy <span class="blue">Alexz</span></h1>
+		<p class="subtitle">Desarrollador de Software</p>
+		<p class="desc">Un chico al que le encanta programar. Recientemente apasionado por el desarrollo web.</p>
+		<a href="/sobre-mi" class="btn">Sobre Mí</a>
+	</main>
+	<section class="projects">
+		<h2>Proyectos en Mente</h2>
+		<p>Una selección de mis trabajos que tengo en mente</p>
+	</section>
+</Layout>
+
+<style>
+	.hero { text-align: center; padding: 100px 24px; }
+	h1 { font-size: 4rem; font-weight: 700; }
+	.blue { color: #0071e3; }
+	.subtitle { font-size: 2rem; color: #86868b; margin-bottom: 20px; }
+	.desc { font-size: 1.2rem; color: #424245; max-width: 600px; margin: 0 auto 40px; }
+	.btn { background: #0071e3; color: #fff; padding: 16px 40px; border-radius: 30px; text-decoration: none; font-weight: 600; }
+	.projects { background: #fafafa; padding: 80px 24px; text-align: center; border-top: 1px solid #d2d2d7; }
+</style>
+
